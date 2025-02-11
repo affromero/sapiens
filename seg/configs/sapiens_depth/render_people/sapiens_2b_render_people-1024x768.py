@@ -74,9 +74,9 @@ model = dict(
 
 ##--------------------------------------------------------------------------
 # optimizer
-custom_imports = dict(
-    imports=['mmseg.engine.optimizers.layer_decay_optim_wrapper'],
-    allow_failed_imports=False)
+# custom_imports = dict(
+#     imports=['mmseg.engine.optimizers.layer_decay_optim_wrapper'],
+#     allow_failed_imports=False)
 
 ## make sure the num_layers is same as the architecture
 optim_wrapper = dict(
